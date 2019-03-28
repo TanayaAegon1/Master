@@ -37,12 +37,12 @@ public class WebDriverTest {
     public void setup() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:/driver/chromedriver.exe");
         driver = new ChromeDriver();
-        System.out.println("Step1");
+        //System.out.println("Step1");
         //driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
         Thread.sleep(5000);
         driver.get(applicationConstants.BaseURL);
         System.out.println("Step2");
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         System.out.println("Browser launched and maximized..");
     }
 
