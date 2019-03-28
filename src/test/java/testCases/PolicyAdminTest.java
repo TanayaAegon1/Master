@@ -19,6 +19,7 @@ public class PolicyAdminTest extends WebDriverTest{
     @Test(description = "Verify if user is able to create policy")
     public void createPolicy() throws IOException, InterruptedException {
 
+        //git test
         LoginPage loginPage = new LoginPage(driver);
         //Thread.sleep(5000);
         String pageTitle = loginPage.getPageTitle();
