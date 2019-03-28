@@ -5,8 +5,8 @@
 <suite name="SeleniumTestNG">
     <test name="AegonAutomation">
         <classes>
-            <!--class name="test.java.testCases.LoginTest"/-->
-            <class name="test.java.testCases.PolicyAdminTest"/>
+            <class name="test.java.testCases.LoginTest"/>
+            <!--class name="test.java.testCases.PolicyAdminTest"/-->
         </classes>
     </test>
 </suite>
