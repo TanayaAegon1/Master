@@ -1,0 +1,5 @@
+[http]
+	sslBackend = openssl
+	sslCAInfo = C:/Users/Tanaya.Bardhan/IdeaProjects/SeleniumTestNG/Git/mingw64/ssl/certs/ca-bundle.crt
+[credential]
+	helper = manager

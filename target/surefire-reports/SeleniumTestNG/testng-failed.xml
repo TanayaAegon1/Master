@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumTestNG]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="AegonAutomation(failed)" verbose="0">
+    <classes>
+      <class name="test.java.testCases.PolicyAdminTest">
+        <methods>
+          <include name="start"/>
+          <include name="quit"/>
+          <include name="createPolicy"/>
+          <include name="setup"/>
+          <include name="writeResultInExcel"/>
+        </methods>
+      </class> <!-- test.java.testCases.PolicyAdminTest -->
+    </classes>
+  </test> <!-- AegonAutomation(failed) -->
+</suite> <!-- Failed suite [SeleniumTestNG] -->
