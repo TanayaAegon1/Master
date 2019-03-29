@@ -41,7 +41,7 @@ public class WebDriverTest {
         //driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
         Thread.sleep(5000);
         driver.get(applicationConstants.BaseURL);
-        System.out.println("Step2");
+        //System.out.println("Step2");
         //driver.manage().window().maximize();
         System.out.println("Browser launched and maximized..");
     }
@@ -59,6 +59,7 @@ public class WebDriverTest {
     {
         driver.close();
         driver.quit();
+        System.out.println("Step1");
     }
 
     @AfterClass
@@ -66,10 +67,13 @@ public class WebDriverTest {
 
         String file = "C:/Users/Tanaya.Bardhan/IdeaProjects/SeleniumTestNG/TestResult.xls";
         File f = new File(file);
+        System.out.println("Step2");
         HSSFWorkbook workbook = new HSSFWorkbook();
         String classN=this.getClass().getName();
+        System.out.println("Step3");
         String className = classN.substring(classN.indexOf("s."),classN.length()).replace("s.","");
         String[] columnNames = {"Sl. No.", "Module name","Test Case name", "Description","Time Taken","Execution Date","Result","Error message"};
+        System.out.println("Step4");
         int colIndex = 0;
         HSSFSheet sheet=null;
 
@@ -89,6 +93,7 @@ public class WebDriverTest {
                 //System.out.println(columnNames[c]);
                 cell.setCellValue(columnNames[c]);
             }
+            System.out.println("Step5");
         }
         else if (f.exists()&&applicationConstants.TestCaseCount>1)
         {
@@ -106,6 +111,7 @@ public class WebDriverTest {
                 cell.setCellValue(columnNames[c]);
             }
             }
+            System.out.println("Step6");
         }
         else{
             FileOutputStream out = new FileOutputStream(new File("TestResult.xls"));
@@ -119,6 +125,7 @@ public class WebDriverTest {
                 //System.out.println(columnNames[c]);
                 cell.setCellValue(columnNames[c]);
             }
+            System.out.println("Step7");
         }
 
         //Getting test case count
