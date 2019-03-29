@@ -42,11 +42,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f502c5b5-5504-4e5c-a2aa-9f01ed13d21a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/New Text Document.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/WebDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/WebDriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/testCases/WebDriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/testCases/WebDriverTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter15424684023780665300.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/testCases/WebDriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/testCases/WebDriverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/pages/CreatePolicyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/pages/PolicyAdminPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/utils/ApplicationConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/utils/ReadDataFromExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/utils/Waits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/utils/WriteInExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/testCases/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/testCases/PolicyAdminTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/testCases/WebDriverTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ApplicationConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ReadDataFromExcel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Waits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/WriteInExcel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefire16770727727075930321tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefire6690627304883886947tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/testCases/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/testCases/PolicyAdminTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/testCases/WebDriverTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -272,7 +292,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553836479165" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553838600190" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jre1.8.0_201" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -345,9 +365,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +375,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3288889" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
