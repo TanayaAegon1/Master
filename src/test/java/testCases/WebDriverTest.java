@@ -30,7 +30,7 @@ public class WebDriverTest {
     @BeforeClass
     public void start()
     {
-    System.out.println("Starting suite..");
+    System.out.println("Starting class..");
     }
 
     @BeforeMethod
@@ -57,15 +57,15 @@ public class WebDriverTest {
     @AfterMethod
     public void quit()
     {
-        driver.close();
-        driver.quit();
+        /*driver.close();
+        driver.quit();*/
         System.out.println("Step1");
     }
 
     @AfterClass
     public void writeResultInExcel(ITestContext testContext) throws IOException, InterruptedException, AWTException {
 
-        String file = "C:/Users/Tanaya.Bardhan/IdeaProjects/SeleniumTestNG/TestResult.xls";
+        /*String file = "C:/Users/Tanaya.Bardhan/IdeaProjects/SeleniumTestNG/TestResult.xls";
         File f = new File(file);
         System.out.println("Step2");
         HSSFWorkbook workbook = new HSSFWorkbook();
@@ -190,13 +190,13 @@ public class WebDriverTest {
                 style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
                 }*/
 
-        }
+        /*}
 
 
         FileOutputStream fileOutputStream = new FileOutputStream(file);
         workbook.write(fileOutputStream);
         fileOutputStream.close();
-        applicationConstants.TestCaseCount++;
+        applicationConstants.TestCaseCount++;*/
 
 
         //Upload result file in sharepoint

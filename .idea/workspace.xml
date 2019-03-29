@@ -43,12 +43,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f502c5b5-5504-4e5c-a2aa-9f01ed13d21a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestResult.xls" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestResultTemplate.xls" beforeDir="false" afterPath="$PROJECT_DIR$/TestResultTemplate.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestScreenshots/loginToAegon.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestScreenshots/loginToAegon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testCases/WebDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/WebDriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1255327381075808357.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/testCases/WebDriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/testCases/WebDriverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter15424684023780665300.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/testCases/WebDriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/testCases/WebDriverTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testCases/WebDriverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="127" column="37" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
+            <state relative-caret-position="2924">
+              <caret line="192" column="10" selection-start-line="192" selection-start-column="10" selection-end-line="192" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -274,7 +272,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553834994731" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553836479165" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jre1.8.0_201" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -522,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCases/WebDriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="127" column="37" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
+        <state relative-caret-position="2924">
+          <caret line="192" column="10" selection-start-line="192" selection-start-column="10" selection-end-line="192" selection-end-column="10" />
         </state>
       </provider>
     </entry>
